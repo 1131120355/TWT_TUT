@@ -1,0 +1,40 @@
+<html>
+<body>
+	<form>
+		<table>
+		<tr><td><b>What kind of car would you like to buy?</b></td></tr>
+		<br>	
+		<tr><td><form action="">
+		<input type="radio" name="car" value="proton"checked>Proton
+		<input type="radio" name="car" value="honda">Honda
+		<input type="radio" name="car" value="ferrari">Ferrari
+		<input type="radio" name="car" value="ford">Ford
+		</form></td></tr>
+		<br>
+		<tr><td><b>What colour do you want on your car?</b></td></tr>
+		<br>
+		<tr><td><select>
+			<option value="White">White</option>
+			<option value="Red">Red</option>
+			<option value="Black">Black</option>
+			<option value="Blue">Blue</option>
+		</select>
+		Other: &nbsp;<input type="text" name="Other">
+		</td></tr>
+		<br>
+		<tr><td><b>What do you like about the car?</b></td></tr>
+		<br>
+		<tr><td><textarea rows="4" cols="50" name="comment" form="usrform"></textarea></td></tr>
+		<br>
+		<tr><td><b>Tell us how to get in touch with you:</b></td></tr>
+		<tr><td>Name: &nbsp&nbsp;<input type="text" name="Name"></td></tr>
+		<tr><td>E-mail: &nbsp;<input type="text" name="E-mail"></td></tr>	
+		<tr><td>Tel: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;<input type="text" name="Tel"></td></tr>
+		<tr><td>FAX: &nbsp&nbsp&nbsp;<input type="text" name="FAX"></td></tr>
+		<tr><td><input type="checkbox" name="contactMe" value="Yes"> Please contact me as soon as possible regarding this matter.</td></tr>
+		<tr><td><input type="submit" value="Submit">&nbsp<input type="submit" value="Clear"></td></tr>
+		</table>
+	</form>
+</body>
+
+</html>
